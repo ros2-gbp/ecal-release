@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/ecalsys">
+        <file alias="APP_ICON">gfx/ecalsys.ico</file>
+    </qresource>
+</RCC>
