@@ -1,0 +1,46 @@
+From a9d8eb3449b616f5f0d574e7f7cc31c0fd8a854f Mon Sep 17 00:00:00 2001
+From: wep21 <daisuke.nishimatsu1021@gmail.com>
+Date: Tue, 5 Sep 2023 20:52:34 +0900
+Subject: [PATCH] change cmake options
+
+Signed-off-by: wep21 <daisuke.nishimatsu1021@gmail.com>
+---
+ CMakeLists.txt | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 4ea1fb06..0dba58da 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -67,8 +67,8 @@ endif()
+ # command line build options
+ # use it that way cmake .. -DBUILD_APPS=ON -DBUILD_SAMPLES=ON
+ # --------------------------------------------------------
+-option(HAS_HDF5                                "Platform supports HDF5 library"                                    ON)
+-option(HAS_QT5                                 "Platform supports Qt 5 library"                                    ON)
++option(HAS_HDF5                                "Platform supports HDF5 library"                                   OFF)
++option(HAS_QT5                                 "Platform supports Qt 5 library"                                   OFF)
+ option(HAS_CURL                                "Build with CURL (i.e. upload support in the recorder app)"         ON)
+ option(HAS_CAPNPROTO                           "Platform supports Cap'n Proto library"                            OFF)
+ option(HAS_FLATBUFFERS                         "Platform supports flatbuffers library"                            OFF)
+@@ -76,7 +76,7 @@ option(HAS_FTXUI                               "Platform supports FTXUI library.
+ 
+ option(BUILD_DOCS                              "Build the eCAL documentation"                                     OFF)
+ option(BUILD_APPS                              "Build the eCAL applications"                                       ON)
+-option(BUILD_SAMPLES                           "Build the eCAL samples"                                            ON)
++option(BUILD_SAMPLES                           "Build the eCAL samples"                                           OFF)
+ option(BUILD_TIME                              "Build the eCAL time interfaces"                                    ON)
+ option(BUILD_PY_BINDING                        "Build eCAL python binding"                                        OFF)
+ option(BUILD_STANDALONE_PY_WHEEL               "Build eCAL python binding as standalone wheel"                    OFF)
+@@ -84,7 +84,7 @@ option(BUILD_CSHARP_BINDING                    "Build eCAL C# binding"
+ option(BUILD_ECAL_TESTS                        "Build the eCAL google tests"                                      OFF)
+ 
+ option(ECAL_INCLUDE_PY_SAMPLES                 "Include python language sample projects into CMake"               OFF)
+-option(ECAL_INSTALL_SAMPLE_SOURCES             "Install the sources of eCAL samples"                               ON)
++option(ECAL_INSTALL_SAMPLE_SOURCES             "Install the sources of eCAL samples"                              OFF)
+ 
+ option(ECAL_JOIN_MULTICAST_TWICE               "Specific Multicast Network Bug Workaround"                        OFF)
+ option(ECAL_NPCAP_SUPPORT                      "Enable the eCAL Npcap Receiver (i.e. the Win10 performance fix)"  OFF)
+-- 
+2.34.1
+
