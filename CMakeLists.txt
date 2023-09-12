@@ -49,7 +49,7 @@ endif()
 # --------------------------------------------------------
 if(UNIX)
   message(STATUS "GCC detected - Adding flags")
-  add_definitions(-Wall -Wextra)
+  add_definitions(-Wall -Wextra -fno-lto)
 
   set(ATOMIC_TEST_CODE "
       #include <atomic>
