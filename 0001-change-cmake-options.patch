@@ -1,4 +1,4 @@
-From 17dec0d584bde7111d5992cae1e28545481ae897 Mon Sep 17 00:00:00 2001
+From 763ca70991be0c9bfeab43d8280522c6096b8992 Mon Sep 17 00:00:00 2001
 From: wep21 <daisuke.nishimatsu1021@gmail.com>
 Date: Tue, 5 Sep 2023 20:52:34 +0900
 Subject: [PATCH 1/2] change cmake options
