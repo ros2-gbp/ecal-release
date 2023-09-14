@@ -1,0 +1,13 @@
+Source: ros-rolling-ecal
+Section: misc
+Priority: optional
+Maintainer: Eclipse Foundation, Inc. <ecal-dev@eclipse.org>
+Build-Depends: debhelper (>= 9.0.0), cmake, libprotobuf-dev, libprotoc-dev, protobuf-compiler, ros-rolling-ros-workspace
+Homepage: https://eclipse-ecal.github.io/ecal
+Standards-Version: 3.9.2
+
+Package: ros-rolling-ecal
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libprotobuf-dev, libprotoc-dev, protobuf-compiler, ros-rolling-ros-workspace
+Description: eCAL - enhanced Communication Abstraction Layer.
+ A fast publish-subscribe cross-plattform middleware using Shared Memory and UDP.
