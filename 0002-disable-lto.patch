@@ -1,4 +1,4 @@
-From cc8ee998944cd34e394f67db688881a7b72123b2 Mon Sep 17 00:00:00 2001
+From 4275045bb30ad6c93da7efd5035965e453e368a8 Mon Sep 17 00:00:00 2001
 From: wep21 <daisuke.nishimatsu1021@gmail.com>
 Date: Tue, 12 Sep 2023 16:50:56 +0900
 Subject: [PATCH 2/2] disable lto
