@@ -1,3 +1,26 @@
+## ecal (rolling) - 5.12.0-4
+
+The packages in the `ecal` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --track rolling --rosdistro rolling ecal` on `Thu, 07 Mar 2024 13:04:59 -0000`
+
+The `ecal` package was released.
+
+Version of package(s) in repository `ecal`:
+
+- upstream repository: https://github.com/eclipse-ecal/ecal.git
+- release repository: https://github.com/ros2-gbp/ecal-release.git
+- rosdistro version: `null`
+- old version: `5.12.0-3`
+- new version: `5.12.0-4`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## ecal (humble) - 5.12.0-1
 
 The packages in the `ecal` repository were released into the `humble` distro by running `/home/daisuke/.local/bin/bloom-release ecal -r humble -e` on `Mon, 28 Aug 2023 13:18:26 -0000`
