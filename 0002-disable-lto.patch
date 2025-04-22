@@ -1,4 +1,4 @@
-From 4275045bb30ad6c93da7efd5035965e453e368a8 Mon Sep 17 00:00:00 2001
+From 057eaff3ce9ce0c1428019675ffb7332c96ec0b5 Mon Sep 17 00:00:00 2001
 From: wep21 <daisuke.nishimatsu1021@gmail.com>
 Date: Tue, 12 Sep 2023 16:50:56 +0900
 Subject: [PATCH 2/2] disable lto
@@ -9,7 +9,7 @@ Signed-off-by: wep21 <daisuke.nishimatsu1021@gmail.com>
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/CMakeLists.txt b/CMakeLists.txt
-index 0dba58da..de3033b9 100644
+index 0dba58da91e2..de3033b9acd2 100644
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
 @@ -49,7 +49,7 @@ endif()
@@ -22,5 +22,5 @@ index 0dba58da..de3033b9 100644
    set(ATOMIC_TEST_CODE "
        #include <atomic>
 -- 
-2.34.1
+2.49.0
 

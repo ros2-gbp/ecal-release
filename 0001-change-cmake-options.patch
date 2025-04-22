@@ -1,4 +1,4 @@
-From 1b42b032f71bb69da3628f2f7b12838ac2dfc723 Mon Sep 17 00:00:00 2001
+From 80e3b364d66d069f7c1b4865360688d654bb2b78 Mon Sep 17 00:00:00 2001
 From: wep21 <daisuke.nishimatsu1021@gmail.com>
 Date: Tue, 5 Sep 2023 20:52:34 +0900
 Subject: [PATCH 1/2] change cmake options
@@ -9,7 +9,7 @@ Signed-off-by: wep21 <daisuke.nishimatsu1021@gmail.com>
  1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/CMakeLists.txt b/CMakeLists.txt
-index 4ea1fb06..0dba58da 100644
+index 4ea1fb0662a8..0dba58da91e2 100644
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
 @@ -67,8 +67,8 @@ endif()
@@ -42,5 +42,5 @@ index 4ea1fb06..0dba58da 100644
  option(ECAL_JOIN_MULTICAST_TWICE               "Specific Multicast Network Bug Workaround"                        OFF)
  option(ECAL_NPCAP_SUPPORT                      "Enable the eCAL Npcap Receiver (i.e. the Win10 performance fix)"  OFF)
 -- 
-2.34.1
+2.49.0
 
